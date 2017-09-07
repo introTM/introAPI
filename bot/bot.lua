@@ -1,5 +1,5 @@
--- #Beyond Reborn Robot
--- #@BeyondTeam
+-- #iNtR0Team Reborn Robot
+-- #@iNtR0Team
 
 tdcli = dofile('./tg/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
@@ -64,7 +64,7 @@ function whoami()
 	end
   print('>> Download Path = '..tcpath)
 end
-
+@iNtR0Team
 function match_plugins(msg)
 	for name, plugin in pairs(plugins) do
 		match_plugin(plugin, name, msg)
@@ -90,7 +90,7 @@ function create_config( )
 		"fun",
 
 	},
-    sudo_users = {111334847, 157059515, sudo_id},
+    sudo_users = {153082803, 311184521, sudo_id},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
