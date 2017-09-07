@@ -1,4 +1,4 @@
-﻿--Begin Utils.lua By #BeyondTeam :)
+﻿--Begin Utils.lua By #:)
  local clock = os.clock
 function sleep(time)  -- seconds
   local t0 = clock()
@@ -888,3 +888,4 @@ else
      return filterlist
    end
 
+@iNtR0Team
